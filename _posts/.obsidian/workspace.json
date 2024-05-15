@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2024-05-15-테스트.md",
+                "file": "2022-05-21-철학은 어떻게 삶의 무기가 되는가.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2024-05-15-테스트.md",
+                "file": "2022-05-21-철학은 어떻게 삶의 무기가 되는가.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2024-05-15-테스트.md",
+                "file": "2022-05-21-철학은 어떻게 삶의 무기가 되는가.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2024-05-15-테스트.md"
+                "file": "2022-05-21-철학은 어떻게 삶의 무기가 되는가.md"
               }
             }
           }
@@ -148,7 +148,9 @@
   },
   "active": "d408848f610309f0",
   "lastOpenFiles": [
-    "2019-08-11-customize-the-favicon.md",
-    "2024-05-15-테스트.md"
+    "_철학은 어떻게 삶의 무기가 되는가.md",
+    "2022-05-21-철학은 어떻게 삶의 무기가 되는가.md",
+    "2024-05-15-테스트.md",
+    "2019-08-11-customize-the-favicon.md"
   ]
 }

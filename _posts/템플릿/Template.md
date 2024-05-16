@@ -1,6 +1,5 @@
 ---
 title: 
-date: 2022-05-21
 categories: 
 tags: 
 media_subpath: /assets/posts/

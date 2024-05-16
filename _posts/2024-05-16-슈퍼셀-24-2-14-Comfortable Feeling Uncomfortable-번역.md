@@ -7,11 +7,9 @@ tags:
 media_subpath: /assets/posts/
 image: SF300390-Edit-Cropped-Web_copy.webp
 ---
-```
-원문
-https://supercell.com/en/news/comfortable-feeling-uncomfortable/
-ChatGPT4 번역
-```
+> 원문
+> https://supercell.com/en/news/comfortable-feeling-uncomfortable/
+> ChatGPT4 번역
 
 
 일카의 — 2024년 2월 14일

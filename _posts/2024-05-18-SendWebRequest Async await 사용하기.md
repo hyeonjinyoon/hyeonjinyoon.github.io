@@ -12,7 +12,7 @@ image:
 해당 코드를 프로젝트 추가하면
 `UnityWebRequestAsyncOperation` 를 Async 함수에서 await로 기다릴 수 있습니다
 
-``` C#
+```c#
 public struct UnityWebRequestAwaiter : INotifyCompletion  
 {  
     private UnityWebRequestAsyncOperation asyncOp;  
@@ -43,7 +43,7 @@ public static class ExtensionMethods
 
 사용 예시
 
-```C#
+```c#
 var www = UnityWebRequest.Get(url);  
 var ao = www.SendWebRequest(); // 응답이 올때까지 대기한다.  
 await ao;

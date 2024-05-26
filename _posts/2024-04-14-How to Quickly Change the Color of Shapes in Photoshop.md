@@ -1,5 +1,5 @@
 ---
-title: How to Quickly Change the Color of Shapes in Photoshop
+title: "[Photoshop] How to Quickly Change the Color of Shapes in Photoshop"
 date: 2024-04-14
 categories:
   - Information

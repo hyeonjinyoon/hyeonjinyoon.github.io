@@ -1,5 +1,5 @@
 ---
-title: 슈퍼셀 24 2 14 Comfortable Feeling Uncomfortable 번역
+title: "[게임 개발] 슈퍼셀 24 2 14 Comfortable Feeling Uncomfortable 번역"
 categories:
   - 게임 개발
 tags:

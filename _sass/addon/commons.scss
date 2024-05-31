@@ -24,7 +24,7 @@ html {
   }
 
   font-weight: 200;
-  font-size: 15px;
+  font-size: 14px;
 
   -webkit-text-size-adjust: none; /*Chrome, Safari, newer versions of Opera*/
   -moz-text-size-adjust: none; /*Firefox*/
@@ -73,7 +73,7 @@ a {
 }
 
 img {
-  max-width: 100%;
+  max-width: 60%;
   height: auto;
   transition: all 0.35s ease-in-out;
 
@@ -285,7 +285,7 @@ sup {
   margin-bottom: 1.5rem;
 
   > table {
-    min-width: 100%;
+    min-width: 80%;
     overflow-x: auto;
     border-spacing: 0;
 
@@ -321,7 +321,7 @@ sup {
 
 .preview-img {
   aspect-ratio: 40 / 21;
-  width: 100%;
+  width: 60%;
   height: 100%;
   overflow: hidden;
 
@@ -355,7 +355,7 @@ sup {
     @extend %rounded;
 
     content: '';
-    width: 100%;
+    width: 80%;
     height: 100%;
     position: absolute;
     background-color: var(--card-hovor-bg);
@@ -1304,7 +1304,7 @@ search {
 
   #topbar,
   #main-wrapper > .container {
-    max-width: 100%;
+    max-width: 80%;
   }
 
   #search-result-wrapper {

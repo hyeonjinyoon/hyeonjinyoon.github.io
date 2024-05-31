@@ -11,79 +11,36 @@ image:
 ---
 
 ```c#
-using System.Collections.Generic;
-
-using System.Threading;
-
-namespace Common
-
-{
-
-    public class UniTaskBag
-
-    {
-
-        private readonly Dictionary<CancellationToken, CancellationTokenSource> _tokenSources = new();
-
+public class UniTaskBag  
+{  
+    private readonly Dictionary<CancellationToken, CancellationTokenSource> _tokenSources = new();  
   
-
-        ~UniTaskBag()
-
-        {
-
-            Dispose();
-
-        }
-
-        public CancellationToken CreateCancelToken()
-
-        {
-
-            var source = new CancellationTokenSource();
-
-            _tokenSources.Add(source.Token, source);
-
-            return source.Token;
-
-        }
-
-  
-
-        public void Dispose()
-
-        {
-
-            _tokenSources.Foreach(pair =>
-
-            {
-
-                var source = pair.Value;
-
-                source.Cancel();
-
-                source.Dispose();
-
-            });
-
-        }
-
-  
-
-        public void Dispose(CancellationToken token)
-
-        {
-
-            var source = _tokenSources[token];
-
-            source.Cancel();
-
-            source.Dispose();
-
-            _tokenSources.Remove(token);
-
-        }
-
-    }
+    ~UniTaskBag()  
+    {        
+	    Dispose();  
+    }    
+    
+    public CancellationToken CreateCancelToken()  
+    {        var source = new CancellationTokenSource();  
+        _tokenSources.Add(source.Token, source);  
+        return source.Token;  
+    }  
+    
+    public void Dispose()  
+    {        _tokenSources.Foreach(pair =>  
+        {  
+            var source = pair.Value;  
+            source.Cancel();  
+            source.Dispose();  
+        });    
+    }
+      
+    public void Dispose(CancellationToken token)  
+    {        var source = _tokenSources[token];  
+        source.Cancel();  
+        source.Dispose();  
+        _tokenSources.Remove(token);  
+    }  
 }
 ```
 

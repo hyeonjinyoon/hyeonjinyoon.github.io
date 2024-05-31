@@ -10,7 +10,7 @@ media_subpath: /assets/posts/
 image:
 ---
 
-```C#
+```c#
 using System.Collections.Generic;
 
 using System.Threading;
@@ -90,7 +90,7 @@ namespace Common
 
 사용 예시
 
-``` C#
+```c#
 public class Test : Monobehaviour  
 {  
 	private UniTaskBag _uniTaskBag = new();  

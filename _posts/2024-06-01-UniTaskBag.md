@@ -3,7 +3,9 @@ title: UniTaskBag
 categories:
   - Programming
   - Unity
-tags: 
+tags:
+  - CSharp
+  - Unity
 media_subpath: /assets/posts/
 image:
 ---

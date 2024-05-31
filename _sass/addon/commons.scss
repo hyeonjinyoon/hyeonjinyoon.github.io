@@ -23,8 +23,8 @@ html {
     }
   }
 
-  font-weight: 200;
-  font-size: 15px;
+  font-weight: 100;
+  font-size: 14px;
 
   -webkit-text-size-adjust: none; /*Chrome, Safari, newer versions of Opera*/
   -moz-text-size-adjust: none; /*Firefox*/
@@ -73,7 +73,7 @@ a {
 }
 
 img {
-  max-width: 100%;
+  max-width: 80%;
   height: auto;
   transition: all 0.35s ease-in-out;
 
@@ -355,7 +355,7 @@ sup {
     @extend %rounded;
 
     content: '';
-    width: 100%;
+    width: 90%;
     height: 100%;
     position: absolute;
     background-color: var(--card-hovor-bg);

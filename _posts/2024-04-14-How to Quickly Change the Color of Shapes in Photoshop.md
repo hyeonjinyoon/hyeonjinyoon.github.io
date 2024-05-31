@@ -8,8 +8,8 @@ tags:
 media_subpath: /assets/posts/
 image: image.png
 ---
-![](image(20).png){: .light .w-75 .shadow .rounded-10 w='1000'}
+![](image(20).png){: .light .w-75 .shadow .rounded-10 w='1200'}
 
-![](image.png){: .light .w-75 .shadow .rounded-10 w='1000'}
+![](image.png){: .light .w-75 .shadow .rounded-10 w='1200'}
 
 If the preview is not supported when changing the color in the Properties tab, you can double-click the layer preview to bring up the color picker, allowing you to change the color in real-time.

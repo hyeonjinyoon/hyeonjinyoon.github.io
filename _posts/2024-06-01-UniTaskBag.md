@@ -91,6 +91,8 @@ namespace Common
 ``` C#
 public class Test : Monobehaviour  
 {  
+	private UniTaskBag _uniTaskBag = new();  
+  
 	private void OnEnable()  
 	{  
 	    FireAsync(_uniTaskBag.CreateCancelToken()).Forget();  

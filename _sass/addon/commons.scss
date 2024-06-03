@@ -35,8 +35,8 @@ html {
 
 body {
   background: var(--main-bg);
-  padding: env(safe-area-inset-top) 20
-    env(safe-area-inset-bottom) 20;
+  padding: env(safe-area-inset-top) 40
+    env(safe-area-inset-bottom) 40;
   color: var(--text-color);
   -webkit-font-smoothing: antialiased;
   font-family: $font-family-base;

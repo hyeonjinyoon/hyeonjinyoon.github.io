@@ -1,5 +1,5 @@
 ---
-title: Supercell's Squad Busters - The Definitive Deconstruction 번역
+title: "[게임 개발] Supercell's Squad Busters - The Definitive Deconstruction 번역"
 categories:
   - 게임 개발
 tags:

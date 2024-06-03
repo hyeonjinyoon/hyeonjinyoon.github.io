@@ -25,6 +25,7 @@ html {
 
   font-weight: 100;
   font-size: 15px;
+  line-height: 1.5;
 
   -webkit-text-size-adjust: none; /*Chrome, Safari, newer versions of Opera*/
   -moz-text-size-adjust: none; /*Firefox*/
@@ -124,7 +125,7 @@ kbd {
   font-family: inherit;
   display: inline-block;
   vertical-align: middle;
-  line-height: 1.3rem;
+  line-height: 1.5rem;
   min-width: 1.75rem;
   text-align: center;
   margin: 0 0.3rem;

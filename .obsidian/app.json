@@ -1,5 +1,10 @@
 {
   "promptDelete": false,
   "alwaysUpdateLinks": true,
-  "spellcheck": false
+  "spellcheck": false,
+  "strictLineBreaks": true,
+  "readableLineLength": true,
+  "showLineNumber": false,
+  "rightToLeft": false,
+  "livePreview": true
 }
